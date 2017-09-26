@@ -1,4 +1,7 @@
 git commit --amend -m "Mensaje" //Cambiar mensaje de commit
-git push origin master -f //forza a hacer commit
-git tag -a v1.0 -m "Mensaje" //tags anotadas
-git tag v1.0 //tags ligeras
+git push origin master -f //Forza a hacer commit
+git tag -a v1.0 -m "Mensaje" //Tags anotadas
+git tag v1.0 //Tags ligeras
+git tag -a v1.0 -m "Mensaje" + (codigo SHA) //Creacion de tag en commit anterior por codigo SHA
+git push origin v1.0 //Subir tag a github
+git push origin --tags //Sube a github todos los tags
