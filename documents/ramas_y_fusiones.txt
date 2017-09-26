@@ -2,4 +2,6 @@ git branch /// mustra las ramas
 git branch nombre // crea una rama 
 git checkout // moverse en las ramas 
 git branch -d // borra ramas 
+git branch -D //borra ramas sin importar restricciones
 git merge Rama // adiciona toda la rama en la rama que estamos pocicionados
+git checkout -b Test //crea una rama y se situa en ella
