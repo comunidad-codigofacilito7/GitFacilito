@@ -1,0 +1,66 @@
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git add index.html
+
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   index.html
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        documents/
+
+
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git add documents
+
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   documents/Usando el control de versiones  GIT.docx
+        new file:   documents/git_config.txt
+        new file:   index.html
+
+
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git add -A
+
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   documents/Usando el control de versiones  GIT.docx
+        new file:   documents/git_config.txt
+        new file:   index.html
+
+
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git commit -m "Primer Commit con Git"
+[master (root-commit) a3ef145] Primer Commit con Git
+ 3 files changed, 47 insertions(+)
+ create mode 100644 documents/Usando el control de versiones  GIT.docx
+ create mode 100644 documents/git_config.txt
+ create mode 100644 index.html
+
+seblopez@BAI-442NRC2 MINGW64 ~/Desktop/Git (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
